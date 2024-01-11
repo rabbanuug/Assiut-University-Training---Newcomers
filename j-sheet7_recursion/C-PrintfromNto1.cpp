@@ -4,6 +4,7 @@
 #include <string>
 #include <cmath>
 #include <cstring>
+
 using namespace std;
 bool first = false;
 void printToNum(int num)
@@ -22,6 +23,7 @@ void printToNum(int num)
     //! we can't use postfix here
     return printToNum(--num);
 }
+
 int main()
 {
     int num;
